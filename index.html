@@ -14,6 +14,9 @@
 <body>
     <div class="container">
         <h1>Pokedex</h1>
+        <form onsubmit="searchPokemon(event)" id="form" action="">
+            <input type="text" placeholder="Buscar N° o nombre" name="pokemon" id="search" class="search">
+        </form>
         <ul id="pokedex"></ul>
     </div>
     <script src="js/main.js"></script>

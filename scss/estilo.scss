@@ -17,6 +17,7 @@ body {
 h1 {
   text-align: center;
   font-size: 4rem;
+  color: rgb(4, 4, 65);
 }
 
 #pokedex {
@@ -83,6 +84,7 @@ h1 {
         list-style: none;
         padding: 5px;
         text-align: center;
+        border-radius: 1rem;
         .description{
             box-shadow: $shadow;
             border-radius: 1rem;
@@ -120,3 +122,38 @@ h1 {
         transform: scale(1.2);
     }
 }
+form{
+  display: flex;
+    justify-content: center;
+}
+.search{
+  text-align: center;
+    padding: 0.5em 0.2em;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: solid 1px rgb(211, 197, 5);
+    color: rgb(212, 17, 17);
+    &::placeholder{
+      color: rgb(212, 17, 17);;
+    }
+}
+
+
+// $electric: #fff4b8;
+// $normal: #9c9697;
+// $fire: #db3f34;
+// $water: #1685aa;
+// $ice: #d1ecf5;
+// $rock: #c0b0ab;
+// $flying: #c3f7e7;
+// $grass: #5d8579;
+// $psychic: #FFC6D9;
+// $ghost: #362729;
+// $bug: #c5fdc6;
+// $poison: #aa989e;
+// $ground: #D2B074;
+// $dragon: #ec98b4;
+// $steel: #313131;
+// $fighting: #2F2F2F;
+// $default: #000000,

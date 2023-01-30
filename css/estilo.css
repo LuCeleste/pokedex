@@ -12,6 +12,7 @@ body {
 h1 {
   text-align: center;
   font-size: 4rem;
+  color: rgb(4, 4, 65);
 }
 
 #pokedex {
@@ -78,6 +79,7 @@ h1 {
   list-style: none;
   padding: 5px;
   text-align: center;
+  border-radius: 1rem;
 }
 .popup .card .description {
   box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.3);
@@ -113,4 +115,28 @@ h1 {
   transition-duration: 0.5s;
   cursor: pointer;
   transform: scale(1.2);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  text-align: center;
+  padding: 0.5em 0.2em;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: solid 1px rgb(211, 197, 5);
+  color: rgb(212, 17, 17);
+}
+.search::-moz-placeholder {
+  color: rgb(212, 17, 17);
+}
+.search:-ms-input-placeholder {
+  color: rgb(212, 17, 17);
+}
+.search::placeholder {
+  color: rgb(212, 17, 17);
 }
